@@ -2,7 +2,7 @@
 Project Name :  OCMS (Online Cafeteria Management System )
 
 Description: 
-OCMS is a full front end backend application were customers can order food at work and pick it up from the cafeteria.
+OCMS is an end-to-end application were customers can order food at work and pick it up from the cafeteria.
 
 OCMS has 3 parts/Apps associated 
 
