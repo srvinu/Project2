@@ -1,0 +1,27 @@
+{
+  "development": {
+    "username": "dqcbeoqvd1jnp1x7",
+    "password": "tbz9ctyi0sqj3w3a",
+    "database": "oqii2q7w3mel5lov",
+    "host": "arfo8ynm6olw6vpn.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+    "port": 3306,
+    "force": true,
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "port": 3306,
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "port": 3306,
+    "dialect": "mysql"
+  }
+}

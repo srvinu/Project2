@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="theme-color" content="#e54c2a">
+        <!-- Favicon -->
+        <link type="image/x-icon" rel="shortcut icon" href="favicon.png" />
+        <title>eCafeteria</title>
+        <!-- <meta name="description" content="STEAM - Restaurant, food and Drinks HTML5 website template is Modern, Clean and Professional site template. Prefect for RESTAURANT, Bakery, Cafe, Bar, Catering, food business and for personal chef portfolio website."> -->
+
+        <!-- Bootstrap stylesheet -->
+        <link href="/assets/libs/bootstrap-4.0.0-dist/css/bootstrap.min.css" rel="stylesheet">
+        <!-- icofont -->
+        <link href="/assets/libs/icofont/css/icofont.css" rel="stylesheet" type="text/css" />
+        <!-- crousel css -->
+        <link href="/assets/libs/owlcarousel2/assets/owl.carousel.min.css" rel="stylesheet" type="text/css" />
+        <!-- Animated Headlines css -->
+        <link href="/assets/libs/animated-headlines/animated-headlines.css" rel="stylesheet" type="text/css" />
+        <!-- mb.YTPlayer css -->
+        <!-- <link href="/assets/libs/mb.YTPlayer/css/jquery.mb.YTPlayer.min.css" rel="stylesheet" type="text/css" /> -->
+        <!-- Theme Stylesheet -->
+        <link href="/assets/css/style.css" rel="stylesheet" type="text/css"/>
+        <!-- Switch Color Style css -->
+        <link href="/assets/css/color/skin-default.css" data-style="styles" rel="stylesheet">
+    </head>
+    <body>
+        <div class="wrapper">
+            <!--[if lt IE 8]>
+               <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+           <![endif]-->
+
+            <!-- Loader Start -->
+            <div class="loader">
+                <div class="loader-inner">
+                    <h4>Cooking in progress..</h4>
+                    <div id="cooking">
+                        <div class="bubble"></div>
+                        <div class="bubble"></div>
+                        <div class="bubble"></div>
+                        <div class="bubble"></div>
+                        <div class="bubble"></div>
+                        <div id="area">
+                            <div id="sides">
+                                <div id="pan"></div>
+                                <div id="handle"></div>
+                            </div>
+                            <div id="pancake">
+                                <div id="pastry"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Loader End -->
+
+            <!--  Header Start  -->
+            <header>
+                <!--Top Header Start -->
+                <div class="top">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12 col-xs-12">
+                                <!-- <ul class="list-inline float-left icon">
+                                    <li class="list-inline-item"><a href="#"><i class="icofont icofont-phone"></i> Hotline : 123 456 7890</a></li>
+                                </ul> -->
+                                <!-- Header Social Start -->
+                                <ul class="list-inline float-right icon">
+                                    <!-- <li class="list-inline-item"><a href="shopping-cart.html"><i class="icofont icofont-cart-alt"></i> Cart</a></li> -->
+                                    <li class="list-inline-item dropdown">
+                                        <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="icofont icofont-ui-user"></i> My Account</a>
+                                        <ul class="dropdown-menu dropdown-menu-right drophover" aria-labelledby="dropdownMenuLink">
+                                            <li class="dropdown-item"><a href="login.html">Login</a></li>
+                                            <li class="dropdown-item"><a href="register.html">Register</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <ul class="list-inline social">
+                                            <li class="list-inline-item"><a href="https://www.facebook.com/" target="_blank"><i class="icofont icofont-social-facebook"></i></a></li>
+                                            <li class="list-inline-item"><a href="https://twitter.com/" target="_blank"><i class="icofont icofont-social-twitter"></i></a></li>
+                                            <li class="list-inline-item"><a href="https://plus.google.com/" target="_blank"><i class="icofont icofont-social-google-plus"></i></a></li>
+                                            <li class="list-inline-item"><a href="https://www.instagram.com/" target="_blank"><i class="icofont icofont-social-instagram"></i></a></li>
+                                            <li class="list-inline-item"><a href="https://in.pinterest.com/" target="_blank"><i class="icofont icofont-social-pinterest"></i></a></li>
+                                            <li class="list-inline-item"><a href="https://www.youtube.com/" target="_blank"><i class="icofont icofont-social-youtube-play"></i></a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <!-- Header Social End -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Top Header End -->
+
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <!-- Logo Start  -->
+                            <div id="logo">
+                                <a href="index.html"><img id="logo_img" class="img-fluid" src="/assets/img/logo/logo-icon.png" alt="logo" title="logo" /><h1 style="color: white; display: inline;"> eCafeteria</h1></a>
+                            </div>
+                            <!-- Logo End  -->
+                        </div>
+
+                        <div class="col-md-7 col-sm-6 col-xs-12 paddleft">
+                            <!-- Main Menu Start  -->
+                            <div id="menu">
+                                <nav class="navbar navbar-expand-md">
+                                    <div class="navbar-header">
+                                        <span class="menutext d-block d-md-none">Menu</span>
+                                        <button data-target=".navbar-ex1-collapse" data-toggle="collapse" class="btn btn-navbar navbar-toggler" type="button"><i class="icofont icofont-navigation-menu"></i></button>
+                                    </div>
+
+                    </div>
+                </div>
+            </header>
+            <!-- Header End   -->
+
+            <!-- Slider Start -->
+            <div class="slide">
+                <div class="slideshow owl-carousel">
+                    <!-- Slider Backround Image Start -->
+                    <div class="item">
+                        <img src="/assets/img/background/banner-1.jpg" alt="banner" title="banner" class="img-responsive"/>
+                    </div>
+                    <div class="item">
+                        <img src="/assets/img/background/banner-2.jpg" alt="banner" title="banner" class="img-responsive"/>
+                    </div>
+                    <div class="item">
+                        <img src="/assets/img/background/banner-3.jpg" alt="banner" title="banner" class="img-responsive"/>
+                    </div>
+                    <div class="item">
+                        <img src="/assets/img/background/banner-4.jpg" alt="banner" title="banner" class="img-responsive"/>
+                    </div>
+                    <!-- Slider Backround Image End -->
+                </div>
+
+                <!-- Slide Detail Start  -->
+                <div class="slide-detail">
+                    <div class="container">
+                        <img src="/assets/img/logo/logo-icon.png" alt="logo1" title="logo1" class="img-responsive" />
+                        <div class="cd-headline clip">
+                            <h4>LOVES <span class="cd-words-wrapper">
+                                    <b class="is-visible">HEALTHY</b>
+                                    <b>QUALITY</b>
+                                    <b>TASTY</b>
+                                </span>FOOD</h4>
+                        </div>
+                        <!-- <p>Welcome to eCafeteria, where you can order food from various stations and Save Time</p> -->
+                        <a class="btn-primary btn btn-wide" href="#">Today's menu</a>
+                    </div>
+                </div>
+                <!-- Slide Detail End  -->
+            </div>
+            <!-- Slider End  -->
+
+            <!-- Order Start  -->
+            <div class="order">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <!-- Title Content Start -->
+                        <div class="col-sm-12 commontop text-center">
+                            <h4>Time is valuable ! Save it !</h4>
+                            <div class="divider style-1 center">
+                                <span class="hr-simple left"></span>
+                                <i class="icofont icofont-ui-press hr-icon"></i>
+                                <span class="hr-simple right"></span>
+                            </div>
+                            <p>Order food online and we will let you know when its ready to pick up.</p>
+                        </div>
+                        <!-- Title Content End -->
+                        <div class="col-lg-7 col-sm-12">
+                            <!-- Search Form Start -->
+                            <form class="form-horizontal search-icon" method="post">
+                                <!-- <fieldset> -->
+                                    <!-- <div class="form-group">
+                                        <input name="s" value="" placeholder="Search keyword"  class="form-control" type="text">
+                                    </div> -->
+                                    <!-- <button type="submit" value="submit" class="btn btn-theme"><i class="icofont icofont-search"></i>Search</button>
+                                </fieldset> -->
+                            </form>
+                            <!-- Search Form End -->
+                            <ul class="list-inline text-center">
+                                <li class="list-inline-item">
+                                    <i class="icofont icofont-fast-food"></i>
+                                    <p>Select Food</p>
+                                </li>
+                                <li class="list-inline-item">
+                                    <i class="icofont icofont-food-basket"></i>
+                                    <p>Order Food</p>
+                                </li>
+                                <li class="list-inline-item">
+                                    <i class="icofont icofont-runner-alt-1"></i>
+                                    <p>Take Out</p>
+                                </li>
+                            </ul>
+                            <img src="/assets/img/lines.png" alt="line" title="line" class="img-fluid" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Order End  -->
+
+            <!-- Popular Dishes Start -->
+
+            <!-- Popular Dishes End -->
+
+            <!-- Food Menu Start -->
+            <div class="menu">
+                <div class="menu-inner">
+                    <div class="container">
+                        <div class="row ">
+                            <!-- Title Content Start -->
+                            <div class="col-sm-12 col-xs-12 commontop text-center">
+                                <h4> Stations and Menu</h4>
+                                <div class="divider style-1 center">
+                                    <span class="hr-simple left"></span>
+                                    <i class="icofont icofont-ui-press hr-icon"></i>
+                                    <span class="hr-simple right"></span>
+                                </div>
+                                <p>Select from the Food Stations available.</p>
+                            </div>
+                            <!-- Title Content End -->
+                            <div class="col-sm-12 col-xs-12">
+                                <!--  Menu Tabs Start  -->
+                                <ul class="nav nav-tabs list-inline">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" href="#all" data-toggle="tab" aria-expanded="true">Pizza</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#breakfast" data-toggle="tab" aria-expanded="false">Burger</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#lunch" data-toggle="tab" aria-expanded="false">Sandwiches</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#dinner" data-toggle="tab" aria-expanded="false">Asian</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#drinks" data-toggle="tab" aria-expanded="false">Salad</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#others" data-toggle="tab" aria-expanded="false">Mexican</a>
+                                    </li>
+                                </ul>
+                                <!--  Menu Tabs Start  -->
+
+                                <!--  Menu Tabs Content Start  -->
+                                    <!--  Menu Tabs Content Start  -->
+<div  class="tab-content">
+  <!--  Menu Tab Start  -->
+  <div class="tab-pane show active" id="Pizza">
+      <div class="row">
+          <div class="col-md-6 col-sm-6 col-xs-12">
+              <!-- Box Start -->
+              <div class="box">
+                  <div class="image">
+                      <img  src="/assets/img/pizza/fathead.jpg" alt="image" title="image" class="img-fluid" />
+                  </div>
+                  <div class="caption">
+                      <h4>Fat Head Pizza</h4>
+                      <p class="des">Bacon/Sausage/Cheese</p>
+                      <span>All your favorite pizza flavors, layered on top of a crunchy, cheesy, keto crust.</span>
+                      <button type="submit" style="float:right" class="btn-danger btn btn-md price"><span style="color: white">$8.00</span></button>
+                  </div>
+              </div>
+
+              <!-- Box End -->
+              <div class="box">
+                  <div class="image">
+                      <img  src="/assets/img/pizza/Meatball_pizza.jpg" alt="image" title="image" class="img-fluid" />
+                  </div>
+                  <div class="caption">
+                      <h4>Meat Ball Pizza</h4>
+                      <p class="des">Meat Ball/Tomato Sauce/Cheese</p>
+                      <span>Homemade meatballs are put on top of a pizza that gets covered in cheese,</span>
+                      <button type="submit" style="float:right" class="btn-danger btn btn-md price"><span style="color: white">$8.00</span></button>
+                  </div>
+              </div>
+
+              <!-- Box End -->
+              <div class="box">
+                  <div class="image">
+                      <img  src="/assets/img/pizza/nypizza.jpg" alt="image" title="image" class="img-fluid" />
+                  </div>
+                  <div class="caption">
+                      <h4>NY Style Pizza</h4>
+                      <p class="des">Tomato Sauce/Cheese</p>
+                      <span>Hand-tossed, with light layer of tomato sauce sprinkled with dry, grated, full-fat mozzarella cheese.</span>
+                      <button type="submit" style="float:right" class="btn-danger btn btn-md price"><span style="color: white">$5.00</span></button>
+                  </div>
+              </div>
+
+              <!-- Box End -->
+              <div class="box">
+                  <div class="image">
+                      <img  src="/assets/img/pizza/pepp.jpg" alt="image" title="image" class="img-fluid" />
+                  </div>
+                  <div class="caption">
+                      <h4>Pepperoni Pizza</h4>
+                      <p class="des">Pepperoni/Tomato Sauce/Cheese</p>
+                      <span>Zesty pepperoni slices and a rich tomato sauce. </span>
+                      <button type="submit" style="float:right" class="btn-danger btn btn-md price"><span style="color: white">$6.00</span></button>
+                  </div>
+              </div>
+
+              <!-- Box End -->
+              <div class="box">
+                  <div class="image">
+                      <img  src="/assets/img/pizza/premeire.jpg" alt="image" title="image" class="img-fluid" />
+                  </div>
+                  <div class="caption">
+                      <h4>Primier Pizza</h4>
+                      <p class="des">Bacon/Veggie/Cheese</p>
+                      <span>All your favorite pizza flavors, layered on top of a crunchy, cheesy, keto crust.</span>
+                      <button type="submit" style="float:right" class="btn-danger btn btn-md price"><span style="color: white">$7.00</span></button>
+                  </div>
+              </div>
+
+              <!-- Box End -->
+              <div class="box">
+                  <div class="image">
+                      <img  src="/assets/img/pizza/veggie.jpg" alt="image" title="image" class="img-fluid" />
+                  </div>
+                  <div class="caption">
+                      <h4>Veggie Pizza</h4>
+                      <p class="des">Veggie/Tomato Sauce/Cheese</p>
+                      <span>Seasonal Veggies topped on thin crust.</span>
+                      <button type="submit" style="float:right" class="btn-danger btn btn-md price"><span style="color: white">$7.00</span></button>
+                  </div>
+              </div>
+
+              <!-- Box End -->
+              <div class="box">
+                  <div class="image">
+                      <img  src="/assets/img/burger/blackbean.jpeg" alt="image" title="image" class="img-fluid" />
+                  </div>
+                  <div class="caption">
+                      <h4>Black Bean Burger</h4>
+                      <p class="des">Black Beans/Tomato/Cheese</p>
+                      <span>Black Bean Burger with Avocado Vegetarian. on ciabatta.</span>
+                      <button type="submit" style="float:right" class="btn-danger btn btn-md price"><span style="color: white">$9.00</span></button>
+                  </div>
+              </div>
+
+              <!-- Box End -->
+              <div class="box">
+                  <div class="image">
+                      <img  src="/assets/img/burger/chicken.jpeg" alt="image" title="image" class="img-fluid" />
+                  </div>
+                  <div class="caption">
+                      <h4>Grilled Chicken Burger</h4>
+                      <p class="des">Chicken/Lettuce/Cheese</p>
+                      <span>Tender chicken breast grilled to perfection</span>
+                      <button type="submit" style="float:right" class="btn-danger btn btn-md price"><span style="color: white">$7.00</span></button>
+                  </div>
+              </div>
+
+              <!-- Box End -->
+              <div class="box">
+                  <div class="image">
+                      <img  src="/assets/img/burger/classic.jpeg" alt="image" title="image" class="img-fluid" />
+                  </div>
+                  <div class="caption">
+                      <h4>Classic Chicken Burger</h4>
+                      <p class="des">Chicken/Lettuce/Tomato</p>
+                      <span>Classic Burger with chicken  grilled to perfection</span>
+                      <button type="submit" style="float:right" class="btn-danger btn btn-md price"><span style="color: white">$7.00</span></button>
+                  </div>
+              </div>
+
+              <!-- Box End -->
+              <div class="box">
+                  <div class="image">
+                      <img  src="/assets/img/burger/hawchick.jpeg" alt="image" title="image" class="img-fluid" />
+                  </div>
+                  <div class="caption">
+                      <h4>Hawaiian Chicken Burger</h4>
+                      <p class="des">Chicken/Pineapple/Sauce</p>
+                      <span>Charbroiled chicken breast hand-dipped in Hawaiian sauce then topped with freshly grilled pineapple.</span>
+                      <button type="submit" style="float:right" class="btn-danger btn btn-md price"><span style="color: white">$10.00</span></button>
+                  </div>
+              </div>
+
+              <!-- Box End -->
+              <div class="box">
+                  <div class="image">
+                      <img  src="/assets/img/burger/pumkin.jpg" alt="image" title="image" class="img-fluid" />
+                  </div>
+                  <div class="caption">
+                      <h4>Pumpkin Black Bean Burger</h4>
+                      <p class="des">Black Bean/Pumpkin/Avocado</p>
+                      <span>Vegan, gluten-free Pumpkin Black Bean Burgers</span>
+                      <button type="submit" style="float:right" class="btn-danger btn btn-md price"><span style="color: white">$10.00</span></button>
+                  </div>
+              </div>
+
+              <!-- Box End -->
+              <div class="box">
+                  <div class="image">
+                      <img  src="/assets/img/mex/burito.jpg" alt="image" title="image" class="img-fluid" />
+                  </div>
+                  <div class="caption">
+                      <h4>Super Burrito</h4>
+                      <p class="des">Black Beans/Beef/Signature Sauce</p>
+                      <span>Large flour tortilla filled with 100% American beef, refried beans, our signature mild sauce.</span>
+                      <button type="submit" style="float:right" class="btn-danger btn btn-md price"><span style="color: white">$8.00</span></button>
+                  </div>
+              </div>
+
+              <!-- Box End -->
+              <div class="box">
+                  <div class="image">
+                      <img  src="/assets/img/mex/ench.jpg" alt="image" title="image" class="img-fluid" />
+                  </div>
+                  <div class="caption">
+                      <h4>Enchiladas</h4>
+                      <p class="des">Black Beans/Chicken/Beef/Mild Sauce</p>
+                      <span>Fresh corn tortillas stuffed with cheese, sauce, and your choice of beef or chicken</span>
+                      <button type="submit" style="float:right" class="btn-danger btn btn-md price"><span style="color: white">$9.00</span></button>
+                  </div>
+              </div>
+
+              <!-- Box End -->
+              <div class="box">
+                  <div class="image">
+                      <img  src="/assets/img/mex/nachos.jpeg" alt="image" title="image" class="img-fluid" />
+                  </div>
+                  <div class="caption">
+                      <h4>Steak Nachos</h4>
+                      <p class="des">Black Beans/Steak/Nachos</p>
+                      <span>Tortilla chips layered with fried beans, and melted cheddar plus Chihuahua cheese</span>
+                      <button type="submit" style="float:right" class="btn-danger btn btn-md price"><span style="color: white">$5.00</span></button>
+                  </div>
+              </div>
+
+              <!-- Box End -->
+              <div class="box">
+                  <div class="image">
+                      <img  src="/assets/img/mex/taco.jpeg" alt="image" title="image" class="img-fluid" />
+                  </div>
+                  <div class="caption">
+                      <h4>Tacos</h4>
+                      <p class="des">Black Beans/Beef/Avocado</p>
+                      <span>Grilled, seasoned carne asada stuffed with beans, salse cruda &amp; shredded cheese,</span>
+                      <button type="submit" style="float:right" class="btn-danger btn btn-md price"><span style="color: white">$6.00</span></button>
+                  </div>
+              </div>
+
+              <!-- Box End -->
+              <div class="box">
+                  <div class="image">
+                      <img  src="/assets/img/mex/Taco-Bowl.jpg" alt="image" title="image" class="img-fluid" />
+                  </div>
+                  <div class="caption">
+                      <h4>Classic Taco Bowl</h4>
+                      <p class="des">Black Beans/Lettuce/Rice</p>
+                      <span>Classic Mexican, made with traditional favorites, like black beans, salsa, and cheese.</span>
+                      <button type="submit" style="float:right" class="btn-danger btn btn-md price"><span style="color: white">$8.00</span></button>
+                  </div>
+              </div>
+
+              <!-- Box End -->
+              <div class="box">
+                  <div class="image">
+                      <img  src="/assets/img/salad/classic.jpg" alt="image" title="image" class="img-fluid" />
+                  </div>
+                  <div class="caption">
+                      <h4>Classic Caesar Salad</h4>
+                      <p class="des">romaine/crunchy croutons/shaved Parmesan</p>
+                      <span>The perfect mix of crisp romaine, crunchy croutons and shaved Parmesan cheese, served with our signature Caesar dressing.</span>
+                      <button type="submit" style="float:right" class="btn-danger btn btn-md price"><span style="color: white">$8.00</span></button>
+                  </div>
+              </div>
+
+              <!-- Box End -->
+              <div class="box">
+                  <div class="image">
+                      <img  src="/assets/img/salad/thai.jpg" alt="image" title="image" class="img-fluid" />
+                  </div>
+                  <div class="caption">
+                      <h4>Thai Beef Salad</h4>
+                      <p class="des">Ginger/Beef/Curry Sauce</p>
+                      <span>Fresh ingredients like ginger and garlic, gluten-free use GF soy sauce or coconut aminos and Thai red curry paste</span>
+                      <button type="submit" style="float:right" class="btn-danger btn btn-md price"><span style="color: white">$10.00</span></button>
+                  </div>
+              </div>
+
+              <!-- Box End -->
+              <div class="box">
+                  <div class="image">
+                      <img  src="/assets/img/salad/mand-pomp.jpg" alt="image" title="image" class="img-fluid" />
+                  </div>
+                  <div class="caption">
+                      <h4>Mandarin Pomegranate Salad</h4>
+                      <p class="des">Mandarin/Pomegranate/Spinach</p>
+                      <span>Festive colorful fruit filled </span>
+                      <button type="submit" style="float:right" class="btn-danger btn btn-md price"><span style="color: white">$9.00</span></button>
+                  </div>
+              </div>
+
+              <!-- Box End -->
+              <div class="box">
+                  <div class="image">
+                      <img  src="/assets/img/subs/italina.jpg" alt="image" title="image" class="img-fluid" />
+                  </div>
+                  <div class="caption">
+                      <h4>Classic Italian Sandwich</h4>
+                      <p class="des">Provolone cheese/romaine lettuce/tomato</p>
+                      <span>Gourmet Italian Sandwiches Served on Grilled Crusty Breads with Fresh, Fabulous Fillings.</span>
+                      <button type="submit" style="float:right" class="btn-danger btn btn-md price"><span style="color: white">$6.00</span></button>
+                  </div>
+              </div>
+
+              <!-- Box End -->
+              <div class="box">
+                  <div class="image">
+                      <img  src="/assets/img/subs/meat.jpg" alt="image" title="image" class="img-fluid" />
+                  </div>
+                  <div class="caption">
+                      <h4>FireHouse MeatBall Sandwich</h4>
+                      <p class="des">Italian meatballs/melted provolone/zesty marinara</p>
+                      <span>Warm Italian meatballs coated in our classic marinara sauce with melted mozzarella cheese.</span>
+                      <button type="submit" style="float:right" class="btn-danger btn btn-md price"><span style="color: white">$10.00</span></button>
+                  </div>
+              </div>
+
+              <!-- Box End -->
+              <div class="box">
+                  <div class="image">
+                      <img  src="/assets/img/subs/summer.jpg" alt="image" title="image" class="img-fluid" />
+                  </div>
+                  <div class="caption">
+                      <h4>Summer Sandwich</h4>
+                      <p class="des">Veggie/ provolone</p>
+                      <span>Fresh Veggie Sandwich. Provolone cheese with cucumber slices, red onion, tomato, lettuce, ranch dressing </span>
+                      <button type="submit" style="float:right" class="btn-danger btn btn-md price"><span style="color: white">$7.00</span></button>
+                  </div>
+              </div>
+
+              <!-- Box End -->
+              <div class="box">
+                  <div class="image">
+                      <img  src="/assets/img/subs/submarine.jpg" alt="image" title="image" class="img-fluid" />
+                  </div>
+                  <div class="caption">
+                      <h4>Submarine Sandwich</h4>
+                      <p class="des">Beef/Veggies /provolone</p>
+                      <span>A classic favorite piled high with tasty roast beef, your choice of fresh vegetables </span>
+                      <button type="submit" style="float:right" class="btn-danger btn btn-md price"><span style="color: white">$7.00</span></button>
+                  </div>
+              </div>
+
+              <!-- Box End -->
+              <div class="box">
+                  <div class="image">
+                      <img  src="/assets/img/asian/coco-curry.jpeg" alt="image" title="image" class="img-fluid" />
+                  </div>
+                  <div class="caption">
+                      <h4>Thai Coconut Curry Shrimp Noodle</h4>
+                      <p class="des">Shrimp/Coconut curry /Noodles</p>
+                      <span>Steamed broccoli, zucchini, carrots with coconut milk, peanut and avocado, topped with roasted cashew.</span>
+                      <button type="submit" style="float:right" class="btn-danger btn btn-md price"><span style="color: white">$7.00</span></button>
+                  </div>
+              </div>
+
+              <!-- Box End -->
+              <div class="box">
+                  <div class="image">
+                      <img  src="/assets/img/asian/miso-ramen.jpg" alt="image" title="image" class="img-fluid" />
+                  </div>
+                  <div class="caption">
+                      <h4>Miso-ramen</h4>
+                      <p class="des">Eggs/Ramen</p>
+                      <span> Miso Ramen is Ramen noodles in a Miso based soup that was created in Japan.</span>
+                      <button type="submit" style="float:right" class="btn-danger btn btn-md price"><span style="color: white">$7.00</span></button>
+                  </div>
+              </div>
+
+              <!-- Box End -->
+              <div class="box">
+                  <div class="image">
+                      <img  src="/assets/img/asian/pork-noodles.jpg" alt="image" title="image" class="img-fluid" />
+                  </div>
+                  <div class="caption">
+                      <h4>BEEF AND MEATBALLS NOODLES</h4>
+                      <p class="des">Beef/MeatBall</p>
+                      <span>Includes slice beef and beef balls.</span>
+                      <button type="submit" style="float:right" class="btn-danger btn btn-md price"><span style="color: white">$9.00</span></button>
+                  </div>
+              </div>
+
+              <!-- Box End -->
+          </div>
+      </div>
+  </div>
+</div>
+</div>
+      </div>
+  </div>
+</div>
+
+              <!-- Box End -->
+          </div>
+      </div>
+  </div>
+  <!--  Menu Tab End  -->
+                                <!--  Menu Tabs Content End  -->
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Food Menu End -->
+
+
+
+            <!-- Footer Start -->
+            <footer>
+                <div class="container">
+                    <div class="row inner">
+                        <div class="col-sm-6 col-md-6 col-lg-3">
+                            <!-- Footer Widget Start -->
+                            <h5>Contact Us</h5>
+                            <ul class="list-unstyled contact">
+                                <li><i class="icofont icofont-social-google-map"></i>300, Atrium Drive, Somerset, New Jersy 08873</li>
+                                <li><i class="icofont icofont-phone"></i> 1800 000 0000,<br>+88 123 1234 1234</li>
+                                <li><a href="#"><i class="icofont icofont-ui-message"></i>rutger@bootcamp.com</a></li>
+                            </ul>
+                            <!-- Footer Widget End -->
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-3">
+
+                            <!-- Footer Widget End -->
+                        </div>
+                        <div class="col-sm-6 col-md-6 col-lg-3">
+
+                            <!-- Footer Widget End -->
+                        </div>
+                        <div class="w-100 d-none d-xs-block"></div>
+                        <div class="col-sm-6 col-md-6 col-lg-3">
+                            <!-- Footer Widget Start -->
+                            <h5>Open Hours</h5>
+                            <ul class="list-unstyled">
+                                <li>Monday - Friday : 9 am to 4 pm.</li>
+                                <li>Saturday - Sunday : Closed</li>
+                                <li>Breakfast : 7 am to 11 pm</li>
+                                <li>Lunch : 12 pm to 4 pm</li>
+                            </ul>
+                            <!-- Footer Widget End -->
+                        </div>
+
+
+                    </div>
+
+                </div>
+                <div class="footer-bottom">
+                    <div class="container">
+                        <div class="row powered">
+                            <!--  Copyright Start -->
+                            <div class="col-md-3 col-sm-6 order-md-1">
+                            </div>
+                            <div class="col-md-3 col-sm-6 text-right order-md-3">
+                                <!--  Footer Social Start -->
+                                <ul class="list-inline social">
+                                    <li class="list-inline-item"><a href="https://www.facebook.com" target="_blank"><i class="icofont icofont-social-facebook"></i></a></li>
+                                    <li class="list-inline-item"><a href="https://twitter.com/" target="_blank"><i class="icofont icofont-social-twitter"></i></a></li>
+                                    <li class="list-inline-item"><a href="https://plus.google.com/" target="_blank"><i class="icofont icofont-social-google-plus"></i></a></li>
+                                    <li class="list-inline-item"><a href="https://in.pinterest.com/" target="_blank"><i class="icofont icofont-social-pinterest"></i></a></li>
+                                    <li class="list-inline-item"><a href="https://www.instagram.com/" target="_blank"><i class="icofont icofont-social-instagram"></i></a></li>
+                                    <li class="list-inline-item"><a href="https://www.youtube.com/" target="_blank"><i class="icofont icofont-social-youtube-play"></i></a></li>
+                                </ul>
+                                <!--  Footer Social End -->
+                            </div>
+                            <div class="col-md-6 col-sm-12 text-center order-md-2">
+                                <p>Copyright © <span>Rutger BootCamp Project 2</span> 2019. All Rights Reserved.</p>
+                            </div>
+                            <!--  Copyright End -->
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- Footer End  -->
+
+        </div>
+
+        <!-- jquery -->
+        <script src="/assets/libs/jquery/jquery.min.js"></script>
+        <!-- jquery Validate -->
+        <script src="/assets/libs/jquery-validation/jquery.validate.min.js"></script>
+        <!-- popper js -->
+        <script src="/assets/libs/popper/popper.min.js"></script>
+        <!-- bootstrap js -->
+        <script src="/assets/libs/bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
+        <!-- owlcarousel js -->
+        <script src="/assets/libs/owlcarousel2/owl.carousel.min.js"></script>
+        <!--inview js code-->
+        <script src="/assets/libs/jquery.inview/jquery.inview.min.js"></script>
+        <!--CountTo js code-->
+        <script src="/assets/libs/jquery.countTo/jquery.countTo.js"></script>
+        <!-- Animated Headlines js code-->
+        <script src="/assets/libs/animated-headlines/animated-headlines.js"></script>
+        <!-- mb.YTPlayer js code-->
+        <script src="/assets/libs/mb.YTPlayer/jquery.mb.YTPlayer.min.js"></script>
+        <!--internal js-->
+        <script src="/assets/js/internal.js"></script>
+    </body>
+
+</html>

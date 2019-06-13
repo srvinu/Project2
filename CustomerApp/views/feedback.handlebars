@@ -1,0 +1,40 @@
+            <!-- Service Start  -->
+            <div class="page-not-found">
+                <div class="container">
+                    <div class="row ">
+                        <!-- Title Content Start -->
+                        <div class="col-sm-12 col-xs-12 commontop text-center">
+                            <h4>Feedback</h4>
+                            <div class="divider style-1 center">
+                                <span class="hr-simple left"></span>
+                                <i class="icofont icofont-ui-press hr-icon"></i>
+                                <span class="hr-simple right"></span>
+                            </div>
+                            <div class="thanks-content">
+                                <h3>Your Feedback is very important for us to improve.</h3>
+                                <p>Please use 1 min of your valueable time.</p>
+                                {{#each data}}
+                                <button type="submit" class="btn btn-theme btn-wide">{{order_name}}
+                                    <div class="rate">
+                                        <input type="radio" data-order={{order_unique}} id="star5" name="rate" value="5" />
+                                        <label for="star5" title="text">5 stars</label>
+                                        <input type="radio"  data-order={{order_unique}} id="star4" name="rate" value="4" />
+                                        <label for="star4" title="text">4 stars</label>
+                                        <input type="radio"  data-order={{order_unique}} id="star3" name="rate" value="3" />
+                                        <label for="star3" title="text">3 stars</label>
+                                        <input type="radio"  data-order={{order_unique}} id="star2" name="rate" value="2" />
+                                        <label for="star2" title="text">2 stars</label>
+                                        <input type="radio"  data-order={{order_unique}} id="star1" name="rate" value="1" />
+                                        <label for="star1" title="text">1 star</label>
+                                    </div>
+                                </button>
+
+                                {{/each}}
+                                {{!-- <a class="btn btn-theme btn-wide" href="/order">Go to home</a> --}}
+                            </div>
+                        </div>
+                        <!-- Title Content End -->
+                    </div>
+                </div>
+            </div>
+            <!-- Service End   -->
